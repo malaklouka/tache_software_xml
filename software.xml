@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE collection SYSTEM "softwareDTD.dtd">
+<?xml-stylesheet type="text/xsl" href="software_xsl.xsl"?>
+<collection>
+	<header>
+		<introduction>
+			Deep learning helps researchers analyze medical data to treat diseases. It enhances doctors’ ability to analyze medical images. It’s advancing the future of personalized medicine. It even helps the blind “see.”“Deep learning is revolutionizing a wide range of scientific fields,” said Jensen Huang, NVIDIA CEO and co-founder. “There could be no more important application of this new capability than improving patient care.
+		</introduction>
+	</header>
+
+	<software>
+		<name>Skin cancer</name>
+		<icon href="icons/skin.jpg" width="60" height="60" />
+	<screenshots>
+			<screenshot mime="png" href="icons/skin.jpg" width="320"
+				height="200" />
+			<screenshot mime="png" href="icons/skin.jpg" width="320"
+				height="200" />
+		</screenshots>
+		<description>
+			Skin cancer, the most common human malignancy is primarily diagnosed visually, beginning with an initial clinical screening and followed potentially by dermoscopic analysis, a biopsy and histopathological examination. Automated classification of skin lesions using images is a challenging task owing to the fine-grained variability in the appearance of skin lesions. Deep convolutional neural networks (CNNs) show potential for general and highly variable tasks across many fine-grained object categories6,7,8,9,10,11. Here we demonstrate classification of skin lesions using a single CNN, trained end-to-end from images directly, using only pixels and disease labels as inputs. We train a CNN using a dataset of 129,450 clinical images two orders of magnitude larger than previous datasets12 consisting of 2,032 different diseases. We test its performance against 21 board-certified dermatologists on biopsy-proven clinical images with two critical binary classification use cases: keratinocyte carcinomas versus benign seborrheic keratoses; and malignant melanomas versus benign nevi.
+The first case represents the identification of the most common cancers, the second represents the identification of the deadliest skin cancer. 
+		</description>
+	
+		
+	</software>
+
+	<software>
+		<name>Alzeihmer</name>
+		<icon href="icons/alz.png" width="60" height="60" />
+		<screenshots>
+			<screenshot mime="png" href="icons/alz.png" width="320"
+				height="200" />
+			<screenshot mime="png" href="icons/alz.png" width="320"
+				height="200" />
+		</screenshots>
+		<description>
+			The accurate diagnosis of Alzheimer's disease (AD) plays a significant role in patient care, especially at the early stage, because the consciousness of the severity and the progression risks allows the patients to take prevention measures before irreversible brain damages are shaped.
+Although many studies have applied machine learning methods for computer aided diagnosis (CAD) of AD recently, a bottleneck of the diagnosis performance was shown in most of the existing researches, mainly due to the congenital limitations of the chosen learning models.
+In this study, we design a deep learning architecture, which contains stacked autoencoders and a softmax output layer, to overcome the bottleneck and aid the diagnosis of AD and its prodromal stage, Mild Cognitive Impairment (MCI).
+Compared to the previous workflows, our method is capable of analyzing multiple classes in one setting, and requires less labeled training samples and minimal domain prior knowledge. 
+A significant performance gain on classification of all diagnosis groups was achieved in our experiments.
+		</description>
+		
+	</software>
+
+	<software>
+		<name>leukemia</name>
+		<icon href="icons/lk.png" width="60" height="60" />
+		<screenshots>
+			<screenshot mime="png" href="icons/lk.png"
+				width="341" height="170" />
+			<screenshot mime="png" href="icons/lk.png"
+				width="341" height="170" />
+		</screenshots>
+		<description>
+			Acute Leukemia is a life-threatening disease common both in children and adults that can lead to death if left untreated. Acute Lymphoblastic Leukemia (ALL) spreads out in children's bodies rapidly and takes the life within a few weeks. To diagnose ALL, the hematologists perform blood and bone marrow examination. Manual blood testing techniques that have been used since long time are often slow and come out with the less accurate diagnosis. This work improves the diagnosis of ALL with a computer aided system, which yields accurate result by using image processing and deep learning techniques. This research proposed a method for the classification of ALL into its subtypes and reactive bone marrow (normal) in stained bone marrow images.
+A robust segmentation and deep learning techniques with the convolutional neural network are used to train the model on the bone marrow images to achieve accurate classification results.
+Experimental results thus obtained and compared with the results of other classifiers Naïve Bayesian, KNN, and SVM. Experimental results reveal that the proposed method achieved 97.78% accuracy.
+The obtained results exhibit that the proposed approach could be used as a tool to diagnose Acute Lymphoblastic Leukemia and its subtypes that will definitely assist pathologists.
+		</description>
+		
+	</software>
+
+
+	<!--<software> <name>Navegatium DICOM Viewer</name> <icon href="icons/navegatium_60.png" 
+		width="60" height="60"/> <screenshots> <screenshot mime="image/jpeg" href="screenshots/navegatium1.jpg" 
+		width="256" height="200"/> <screenshot mime="image/jpeg" href="screenshots/navegatium2.jpg" 
+		width="320" height="202"/> </screenshots> <description> Navegatium est le 
+		visualiseur DICOM qui ronge le monde des applications dans le domaine médical. 
+		Avec une approche innovante sur le marché, il peut être acquis gratuitement 
+		via Windows Store . Il est considéré par de nombreux utilisateurs comme le 
+		visualiseur médical le plus facile à utiliser sur le marché, il dispose d'une 
+		interface permettant à chaque médecin de consulter un logiciel médical, sans 
+		oublier la fonctionnalité et les fonctionnalités puissantes à explorer et 
+		manipuler des études DICOM (fichiers .dcm). compliqué. Le Navegatium DICOM 
+		Viewer est également intégré au PACS (système d' archivage et de communication 
+		d' images ) pour les hôpitaux, les cliniques et les centres de recherche, 
+		permettant aux médecins, radiologues, les pathologistes et les chercheurs 
+		consultent et stockent leurs études et l'imagerie médicale dans leurs institutions 
+		de travail. </description> <version>1.10</version> <developer>NAVEGATIUM</developer> 
+		<requirements> <os>Windows 10 / 8.1</os> </requirements> <website url="http://www.navegatium.com/dicom-viewer"/> 
+		<features> <feature title="Construction 3D"> <exist>true</exist> </feature> 
+		<feature title="Construction 4D/5D"> <exist>true</exist> </feature> <feature 
+		title="Traitement d’imagerie de flux sanguin (extraction des mesures pour 
+		le flux)"> <exist>true</exist> </feature> <feature title="Nombre de patient 
+		accepté/capacité d’adaptabilité"> <exist>true</exist> </feature> <feature 
+		title="Mesures locaux/filtres usuelles"> <exist>true</exist> </feature> <feature 
+		title="Gestion des plugin"> <exist>true</exist> </feature> <feature title="Outils 
+		de diffusion (DTI,DKI) /Imagerie DWI"> <exist>true</exist> </feature> </features> 
+		</software> -->
+	<software>
+		<name>Cardiology</name>
+		<icon href="icons/card.png" width="60" height="60" />
+		<screenshots>
+			<screenshot mime="png" href="icons/card.png"
+				width="341" height="213" />
+			<screenshot mime="png" href="icons/card.png"
+				width="341" height="213" />
+		</screenshots>
+		<description>
+			Our intention is to produce a computer aided diagnosis tool to assist clinicians in diagnosing heart disease and planning its treatment using motion and/or deformation information. The tool will be based on the latest deep learning techniques, and the application of deep learning to cardiac motion analysis represents the first main novelty of this project. The second novelty lies in the explanatory power of the tool. 
+			By offering clear and intuitive information that can help to generate explanations for its outputs it is hoped that one of the most significant obstacles to the clinical translation of machine learning techniques in medicine can be overcome.
+		</description>
+		
+			
+	</software>
+
+	<software>
+		<name>Robotic surgery</name>
+		<icon href="icons/r.png" width="60" height="60" />
+		<screenshots>
+			<screenshot mime="jpeg" href="icons/r.png"
+				width="320" height="187" />
+			<screenshot mime="jpeg" href="icons/r.png"
+				width="320" height="187" />
+		</screenshots>
+		<description>With the advent of robot assisted surgery, the role of data driven approaches to integrate statistics and machine learning is growing rapidly with prominent interests in objective surgical skill assessment.
+However, most existing work requires translating robot motion kinematics into intermediate features or gesture segments that are expensive to extract, lack efficiency, and require significant domain-specific knowledge. We propose an analytical deep learning framework for skill assessment in surgical training. A deep convolutional neural network is implemented to map multivariate time series data of the motion kinematics to individual skill levels. We perform experiments on the public minimally invasive surgical robotic dataset, JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS). Our proposed learning model achieved a competitive accuracy of 94.1%, 90.3%, and 86.8%, in the standard training tasks: Suturing, Needle-passing, and Knottying, respectively. Without the need of engineered features or carefully-tuned gesture segmentation, our model can successfully decode skill information from raw motion profiles via end to end learning. Meanwhile, the proposed model is able to reliably interpret skills within 1-3 second window, without needing an observation of entire training trial.
+This study highlights the potentials of deep architectures for an proficient online skill assessment in modern surgical training.
+		</description>
+		
+			
+	</software>
+
+	<software>
+		<name>medical imaging</name>
+		<icon href="icons/m.png" width="60" height="60" />
+		<screenshots>
+			<screenshot mime="jpeg" href="icons/m.png"
+				width="320" height="190" />
+			<screenshot mime="jpeg" href="icons/m.png"
+				width="320" height="190" />
+		</screenshots>
+		<description>Deep neural networks are now the state of the art machine learning models across a variety of areas, from image analysis to natural language processing, and widely deployed in academia and industry.
+These developments have a huge potential for medical imaging technology, medical data analysis, medical diagnostics and healthcare in general, slowly being realized. We provide a short overview of recent advances and some associated challenges in machine learning applied to medical image processing and image analysis.
+As this has become a very broad and fast expanding field we will not survey the entire landscape of applications, but put particular focus on deep learning in MRI.Our aim is threefold:
+* give a brief introduction to deep learning with pointers to core references 
+* indicate how deep learning has been applied to the entire MRI processing chain, from acquisition to image retrieval, from segmentation to disease prediction 
+* provide a starting point for people interested in experimenting and perhaps contributing to the field of machine learning for medical imaging by pointing out good educational resources, state-of-the-art open-source code, and interesting sources of data and problems related medical imaging.
+		</description>
+		
+		
+	</software>
+
+	<software>
+		<name>counting primordial follicles</name>
+		<icon href="icons/fol.png" width="60" height="60" />
+		<screenshots>
+			<screenshot mime="jpeg" href="icons/fol.png"
+				width="320" height="190" />
+			<screenshot mime="jpeg" href="icons/fol.png"
+				width="320" height="190" />
+		</screenshots>
+		<description>The evaluation of the number of mouse ovarian primordial follicles (PMF) can provide important information about ovarian function, regulation of folliculogenesis or the impact of chemotherapy on fertility. This counting, usually performed by specialized operators, is a tedious, time consuming but indispensable procedure.
+The development and increasing use of deep machine learning algorithms promise to speed up and improve this process. Here, we present a new methodology of automatically detecting and counting PMF, using convolutional neural networks driven by labelled datasets and a sliding window algorithm to select test data.
+Trained from a database of 9 millions of images extracted from mouse ovaries, and tested over two ovaries (3 millions of images to classify and 2 000 follicles to detect), the algorithm processes the digitized histological slides of a completed ovary in less than one minute, dividing the usual processing time by a factor of about 30. It also outperforms the measurements made by a pathologist through optical detection. 
+Its ability to correct label errors enables conducting an active learning process with the operator, improving the overall counting iteratively. These results could be suitable to adapt the methodology to the human ovarian follicles by transfer learning.
+		</description>
+	
+		
+	</software>
+
+	
+
+	<criteria>
+		<item1 title="Description" width="100" height="50" />
+		
+		
+	</criteria>
+	
+	<utils>
+		<blue href="img/yes.png" width="20" height="20" />
+		<black href="img/no.png" width="20" height="20" />
+	</utils>
+	<references>
+		<ref software="RadiAnt Dicom Viewer">[1] "RadiAnt DICOM Viewer." [En ligne]. Disponible
+			sur: https://www.radiantviewer.com/. [Consulté le: 02-mars-2018].</ref>
+		<ref software="Onis DICOM Viewer">[2] "Onis Viewer - Dicom viewer and PACS." [En
+			ligne]. Disponible sur: http://www.onis-viewer.com/. [Consulté le:
+			02-mars-2018].</ref>
+		<ref software="MicroDicom">[3] "MicroDicom - Free DICOM viewer and software."
+			[En ligne]. Disponible sur: http://www.microdicom.com/. [Consulté le:
+			02-mars-2018].</ref>
+		<ref software="OsiriX">[4] "OsiriX | The world famous medical imaging
+			viewer." [En ligne]. Disponible sur: https://www.osirix-viewer.com/.
+			[Consulté le: 02-mars-2018].</ref>
+		<ref software="Horos">[5] "Horos Project – Free DICOM Medical Image
+			Viewer." [En ligne]. Disponible sur: https://horosproject.org/.
+			[Consulté le: 02-mars-2018].</ref>
+		<ref software="3D Slicer">[6] "3D Slicer." [En ligne]. Disponible sur:
+			https://www.slicer.org/. [Consulté le: 02-mars-2018].</ref>
+		<ref software="ITK Snap">[7] "ITK-Snap." [En ligne]. Disponible sur:
+			http://www.itksnap.org/pmwiki/pmwiki.php. [Consulté le:
+			26-mars-2018].</ref>
+		<ref software="GIMIAS">[8] "Gimias." [En ligne]. Disponible sur:
+			http://www.gimias.org/. [Consulté le: 26-mars-2018].</ref>
+		<ref software="MITK">[9] "The Medical Imaging Interaction Toolkit (MITK) - mitk.org." [En ligne]. Disponible sur:
+			http://mitk.org/wiki/MITK. [Consulté le: 26-mars-2018].</ref>	
+		
+		<ref software="OsiriX_screeshot">[10] « BullsEye.png (PNG Image, 3360 × 2100 pixels) -
+			Scaled (28%) ». [En ligne]. Disponible sur:
+			http://www.osirix-viewer.com/wp-content/uploads/2015/08/BullsEye.png.
+			[Consulté le: 02-mars-2018].</ref>
+		<ref software="OsiriX_screeshot">[11] « EjectionFraction.png (PNG Image, 3360 × 2100
+			pixels) - Scaled (28%) ». [En ligne]. Disponible sur:
+			http://www.osirix-viewer.com/wp-content/uploads/2015/08/EjectionFraction.png.
+			[Consulté le: 02-mars-2018].</ref>
+		<ref software="3D Slicer_screeshot">[12] « maxresdefault.jpg (JPEG Image, 1280 × 720
+			pixels) - Scaled (81%) ». [En ligne]. Disponible sur:
+			https://i.ytimg.com/vi/BJoIexIvtGo/maxresdefault.jpg. [Consulté le:
+			02-mars-2018].</ref>
+		<ref software="ITK Snap_screeshot">[13] « tyler.jpg (JPEG Image, 796 × 577 pixels) ».
+			[En ligne]. Disponible sur:
+			https://e61b90dd-a-005fc995-s-sites.googlegroups.com/a/bucknell.edu/engineering-student-research-symposium-2015/home/mechanical-engineering/effects-of-the-ratio-of-excipient-and-solute-on-amorphous-particle-and-unique-polymorph-formation-1/tyler.jpg
+			. [Consulté le: 26-mars-2018].</ref>
+		<ref software="GIMIAS_screeshot">[14] « 8_image_1_erm.jpg (JPEG Image, 908 × 703
+			pixels) - Scaled (83%) ». [En ligne]. Disponible sur:
+			http://www.gimias.org/images/stories/Plugins/CardiacQuantification/8_image_1_erm.jpg.
+			[Consulté le: 26-mars-2018].</ref>
+		<ref software="GIMIAS_screeshot">[15] « cmgui-gimias-04.png (PNG Image, 1280 × 994
+			pixels) - Scaled (59%) ». [En ligne]. Disponible sur:
+			http://www.gimias.org/images/stories/Plugins/CMGUI/cmgui-gimias-04.png.
+			[Consulté le: 26-mars-2018].</ref>
+	</references>
+</collection>

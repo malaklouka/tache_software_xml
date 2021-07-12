@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root SYSTEM "list_dtd.dtd" >
+<?xml-stylesheet type="text/xsl" href="list_xsl.xsl"?>
+
+<root>
+<header>
+		<introduction>
+		
+			Deep learning helps researchers analyze medical data to treat diseases. It enhances doctors ability to analyze medical images. It’s advancing the future of personalized medicine. It even helps the blind “see.”“Deep learning is revolutionizing a wide range of scientific fields,” said Jensen Huang, NVIDIA CEO and co-founder. “There could be no more important application of this new capability than improving patient care.
+			
+	</introduction>
+	</header>
+	<item type="Field">
+		<field>
+			<name>Skin cancer</name>
+			<icon src="icons/skn.png" width="250" height="250" />
+			<description>Deep convolutional neural networks (CNNs) show potential for general and highly variable tasks across many fine-grained object categories 6,7,8,9,10,11. they demonstrate classification of skin lesions using a single CNN, trained end-to-end from images directly, using only pixels and disease labels as inputs. 
+			they train a CNN using a dataset of 129,450 clinical images two orders of magnitude larger than previous datasets12 consisting of 2,032 different diseases. </description>
+			
+		</field>
+		<field>
+			<name>Alzeihmer</name>
+			<icon src="icons/alz.png" width="250" height="250" />
+			<description>they design a deep learning architecture, which contains stacked autoencoders and a softmax output layer, to overcome the bottleneck and aid the diagnosis of AD and its prodromal stage, Mild Cognitive Impairment (MCI).
+Compared to the previous workflows, our method is capable of analyzing multiple classes in one setting, and requires less labeled training samples and minimal domain prior knowledge. </description>
+			
+		</field>
+		<field>
+			<name>Leukemia</name>
+			<icon src="icons/lk.png" width="250" height="250" />
+			<description>
+A robust segmentation and deep learning techniques with the convolutional neural network are used to train the model on the bone marrow images to achieve accurate classification results.
+The obtained results exhibit that the proposed approach could be used as a tool to diagnose Acute Lymphoblastic Leukemia and its subtypes that will definitely assist pathologists.
+			</description>
+			
+		</field>
+		<field>
+			<name>Cardiology</name>
+			<icon src="icons/card.png" width="250" height="250" />
+			<description> The tool will be based on the latest deep learning techniques, and the application of deep learning to cardiac motion analysis represents the first main novelty of this project.
+			The second novelty lies in the explanatory power of the tool. By offering clear and intuitive information that can help to generate explanations for its outputs it is hoped that one of the most significant obstacles to the clinical translation of machine learning techniques in medicine can be overcome. 
+			</description>
+			
+		</field>
+		<field>
+			<name>Robotic surgery</name>
+			<icon src="icons/r.png" width="250" height="250" />
+			<description>  the proposed learning model achieved a competitive accuracy of 94.1%, 90.3%, and 86.8%, in the standard training tasks: Suturing, Needle-passing, and Knottying, respectively.  Meanwhile, the proposed model is able to reliably interpret skills within 1-3 second window, without needing an observation of entire training trial.
+This study highlights the potentials of deep architectures for an proficient online skill assessment in modern surgical training.
+		</description>
+			
+		</field>
+	
+		<field>
+			<name>Medical imaging</name>
+			<icon src="icons/m.png" width="250" height="250" />
+			<description>
+				In medical imaging the interest in deep learning is mostly triggered by convolutional neural networks (CNNs) a powerful way to learn useful representations of images and other structured data. 
+				There are some strong preferences embedded in CNNs based on how they are constructed, which helps us understand why they are so powerful. 
+			</description>
+			
+		</field>
+		<field>
+			<name>Counting primordial follicles</name>
+			<icon src="icons/fol.png" width="250" height="250" />
+			<description>
+				 the algorithm processes the digitized histological slides of a completed ovary in less than one minute, dividing the usual processing time by a factor of about 30. Its ability to correct label errors enables conducting an active learning process with the operator, improving the overall counting iteratively. 
+These results could be suitable to adapt the methodology to the human ovarian follicles by transfer learning. </description>
+			
+		</field>
+	
+	</item>
+	
+	<references>
+		<ref software="VTK">[1] "VTK - The Visualization Toolkit." [En ligne]. Disponible
+			sur: https://www.vtk.org/. [Consulté le: 20-avril-2018].</ref>
+		<ref software="ITK">[2] "ITK - Segmentation &amp; Registration Toolkit." [En ligne]. Disponible
+			sur: https://itk.org/. [Consulté le: 20-avril-2018].</ref>
+		<ref software="FSL">[3] "FSL - FslWiki." [En ligne]. Disponible
+			sur: https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/. [Consulté le: 20-avril-2018].</ref>
+		<ref software="SPM">[4] "SPM - Statistical Parametric Mapping." [En ligne]. Disponible
+			sur: http://www.fil.ion.ucl.ac.uk/spm/. [Consulté le: 20-avril-2018].</ref>
+		<ref software="MIA">[5] "MIA - a toolkit for gray scale medical image analysis." [En ligne]. Disponible
+			sur: http://mia.sourceforge.net/. [Consulté le: 20-avril-2018].</ref>
+		<ref software="NiftyReg">[6] "Nifty Reg download | SourceForge.net." [En ligne]. Disponible
+			sur: https://sourceforge.net/projects/niftyreg/. [Consulté le: 20-avril-2018].</ref>
+		<ref software="elastix">[7] "elastix." [En ligne]. Disponible
+			sur: http://elastix.isi.uu.nl/. [Consulté le: 20-avril-2018].</ref>
+		<ref software="ANTS">[8] "ANTs | PICSL." [En ligne]. Disponible
+			sur: http://picsl.upenn.edu/software/ants/. [Consulté le: 20-avril-2018].</ref>
+		<ref software="NiftySeg">[9] "Nifty Seg download | SourceForge.net." [En ligne]. Disponible
+			sur: https://sourceforge.net/projects/niftyseg/. [Consulté le: 20-avril-2018].</ref>
+		<ref software="NiftyRec">[10] "Nifty Rec download | SourceForge.net." [En ligne]. Disponible
+			sur: https://sourceforge.net/projects/niftyrec/. [Consulté le: 20-avril-2018].</ref>
+		<ref software="NiftySim">[11] "Nifty Sim download | SourceForge.net." [En ligne]. Disponible
+			sur: https://sourceforge.net/projects/niftysim/. [Consulté le: 20-avril-2018].</ref>
+		<ref software="Camino">[12] "UCL Camino Diffusion MRI Toolkit." [En ligne]. Disponible
+			sur: http://camino.cs.ucl.ac.uk/. [Consulté le: 20-avril-2018].</ref>
+		<ref software="DTI-TK">[13] "DTI-TK Home Page ." [En ligne]. Disponible
+			sur: http://dti-tk.sourceforge.net/pmwiki/pmwiki.php. [Consulté le: 20-avril-2018].</ref>
+	</references>
+</root>

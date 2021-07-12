@@ -1,0 +1,45 @@
+<!ELEMENT collection (header,software+,criteria,utils,references)>
+<!ELEMENT header (introduction)>
+<!ELEMENT introduction (#PCDATA)*>
+<!ELEMENT software (name,icon,screenshots,description,version,developer,requirements,download,website,features)>
+<!ELEMENT name (#PCDATA)*>
+<!ELEMENT icon EMPTY>
+<!ATTLIST icon href CDATA #REQUIRED
+			   width CDATA #REQUIRED
+			   height CDATA #REQUIRED>
+<!ELEMENT screenshots (screenshot+)>
+<!ELEMENT screenshot EMPTY>
+<!ATTLIST screenshot mime (png|jpeg|gif) #REQUIRED
+					 href CDATA #REQUIRED
+					 width CDATA #REQUIRED
+					 height CDATA #REQUIRED>
+<!ELEMENT description (#PCDATA)*>
+<!ELEMENT version (#PCDATA)*>
+<!ELEMENT developer (#PCDATA)*>
+<!ELEMENT requirements (os)>
+<!ELEMENT os (#PCDATA)>
+<!ELEMENT download (link+)>
+<!ELEMENT link EMPTY>
+<!ATTLIST link os CDATA #REQUIRED
+			   href CDATA #REQUIRED>
+<!ELEMENT website EMPTY>
+<!ATTLIST website url CDATA #REQUIRED>
+<!ELEMENT features (feature)+>
+<!ATTLIST feature title CDATA #REQUIRED>
+<!ELEMENT feature (exist)+>
+<!ELEMENT exist (#PCDATA)*>
+<!ELEMENT criteria (item1)+>
+<!ELEMENT item1 EMPTY>
+<!ATTLIST item1 title CDATA #REQUIRED>
+<!ELEMENT utils (green,red)>
+<!ELEMENT green EMPTY>
+<!ELEMENT red EMPTY>
+<!ATTLIST green href CDATA #REQUIRED
+				width CDATA #REQUIRED
+				height CDATA #REQUIRED>
+<!ATTLIST red href CDATA #REQUIRED
+		  	  width CDATA #REQUIRED	
+		      height CDATA #REQUIRED>
+<!ELEMENT references (ref)+>
+<!ELEMENT ref (#PCDATA)>
+<!ATTLIST ref software CDATA #REQUIRED>
